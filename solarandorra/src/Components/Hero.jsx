@@ -2,26 +2,19 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <div className="h-screen bg-gradient-to-r from-green-400 to-white flex"  >
+    <div className="h-screen pt-24 md:pt-0 flex flex-col md:flex-row"  >
         
-         <div className="h-full my-auto text-center md:flex-col  items-center justify-center ">
-        <h2 className="text-6xl font-extrabold text-slate-800">La tranquilidad de la energia verde en tu hogar.</h2>
-        <p className="text-2xl text-slate-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, a.</p>
-        <button>info</button>
+         <div className="w-full h-full my-auto text-center flex flex-col  items-center justify-center ">
+        <h2 className="text-6xl font-extrabold text-slate-800 py-4">La tranquilidad de la energia verde en tu hogar.</h2>
+        <p className="text-2xl text-slate-400 py-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, a.</p>
+        <button className="py-4 px-6 bg-slate-800 text-white rounded-lg  ">Como funciona?</button>
         </div>
-        <div>
-          <div className="flex-col">
-            <div className="flex">
-            <img src="https://cdn.pixabay.com/photo/2017/09/29/18/18/photovoltaic-2799982_960_720.jpg" alt="" /><img src="https://cdn.pixabay.com/photo/2015/09/17/12/06/solar-panels-944002_960_720.jpg" alt="" />
-            </div>
-            <div className="flex">
-            <img src="https://cdn.pixabay.com/photo/2017/09/29/18/18/photovoltaic-2799982_960_720.jpg" alt="" /><img src="https://cdn.pixabay.com/photo/2015/09/17/12/06/solar-panels-944002_960_720.jpg" alt="" />
+        <div className="w-full flex justify-center items-center">
+            <div className="p-3 ">
+            <img className="rounded-lg" src="https://static.vecteezy.com/system/resources/previews/000/663/027/non_2x/vector-solar-panel-isometric-illustration.jpg" alt="" />
             </div>
           </div>
-          <div>
-            <img src="https://cdn.pixabay.com/photo/2021/07/20/21/53/house-6481809_960_720.png" alt="" />
-          </div>
-        </div>
+        
         
 
     </div>
