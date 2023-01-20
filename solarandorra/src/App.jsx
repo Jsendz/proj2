@@ -1,10 +1,10 @@
 
 
 import { Hero } from './components/Hero';
-
 import { Navbar } from './components/Navbar';
 import { Serveis } from './components/Serveis';
 import { Instalacion } from './components/Instalacion';
+import { Contact } from './Components/Contact';
 
 
 
@@ -14,8 +14,9 @@ function App() {
       <Navbar />
       <Hero />
       
-      <Serveis />
       <Instalacion />
+      <Serveis />
+      <Contact />
      
     </div>
   );

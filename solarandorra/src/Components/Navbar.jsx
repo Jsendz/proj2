@@ -9,7 +9,7 @@ export const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full  h-[80px] bg-white flex justify-between items-center px-4 text-slate-800'>
     <div>
       <img src="https://cdn.pixabay.com/photo/2013/07/13/11/46/panel-158630_960_720.png" alt='Logo Image' style={{ width: '100px' }} />
     </div>
@@ -53,33 +53,33 @@ export const Navbar = () => {
       className={
         !nav
           ? 'hidden'
-          : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-white flex flex-col justify-center items-center'
+          : 'absolute top-20 left-0 w-full h-screen bg-[#0a192f] text-white flex flex-col justify-start items-center'
       }
     >
-      <li className='py-6 text-4xl'>
+      <li className='py-4 text-3xl'>
         <Link onClick={handleClick} to='home' smooth={true} duration={500}>
           Inici
         </Link>
       </li>
-      <li className='py-6 text-4xl'>
+      <li className='py-4 text-3xl'>
         {' '}
         <Link onClick={handleClick} to='about' smooth={true} duration={500}>
           Qui Som?
         </Link>
       </li>
-      <li className='py-6 text-4xl'>
+      <li className='py-4 text-3xl'>
         {' '}
         <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
           Serveis
         </Link>
       </li>
-      <li className='py-6 text-4xl'>
+      <li className='py-4 text-3xl'>
         {' '}
         <Link onClick={handleClick} to='work' smooth={true} duration={500}>
           Instalacio
         </Link>
       </li>
-      <li className='py-6 text-4xl'>
+      <li className='py-4 text-3xl'>
         {' '}
         <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
           Contacte
