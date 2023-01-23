@@ -5,7 +5,7 @@ export const Hero = () => {
     <div className="h-screen w-full max-w-7xl md:mx-auto pt-24 md:pt-0 flex flex-col md:flex-row"  >
         
          <div className="w-full h-full my-auto  flex flex-col  items-center justify-center ">
-        <h2 className="w-[90%] mx-auto text-3xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-slate-700 py-2"><span className="">Energia Verde.</span>Tu Hogar.Tranquilidad.</h2>
+        <h2 className="w-[90%] mx-auto text-center text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-slate-700 py-2"><span className="">Energia Verde.</span>Tu Hogar.Tranquilidad.</h2>
         <p className="text-xl text-center w-[90%] text-slate-500 py-4 px-8 mx-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, a.</p>
         <button className="py-4 px-6 bg-slate-800 text-white rounded-lg  ">Como funciona?</button>
         </div>

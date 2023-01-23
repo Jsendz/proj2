@@ -2,9 +2,10 @@
 
 import { Hero } from './components/Hero';
 import { Navbar } from './components/Navbar';
-import { Serveis } from './components/Serveis';
+import { Info } from './components/Info';
 import { Instalacion } from './components/Instalacion';
 import { Contact } from './Components/Contact';
+import { Serveis } from './Components/Serveis';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       
       <Instalacion />
       <Serveis />
+      <Info />
       <Contact />
      
     </div>

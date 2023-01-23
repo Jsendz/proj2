@@ -2,35 +2,23 @@ import React from 'react'
 
 export const Serveis = () => {
   return (
-    <div className="h-full min-h-screen w-full overflow-hidden flex flex-col md:flex-row justify-around items-center max-w-7xl mx-auto bg-slate-400" >
-      <div className="relative w-full">
-        <div className="absolute w-40 h-40 bg-teal-400 rounded-full -left-20 -top-20 -z-10"></div>
-        <div className="absolute w-40 h-40 bg-teal-400 rounded-lg -right-10 -bottom-20"></div>
-        <div className="w-[90%] mx-auto h-full z-10">
-          <img className="rounded-xl shadow-md z-10" src="https://cdn.pixabay.com/photo/2017/11/11/17/05/solar-system-2939551_640.jpg" alt="" />
-        </div>
-      </div>
-      <div className="w-full h-full flex flex-col justify-between items-center">
-        <div className="w-full h-full flex flex-col justify-between">
-        <h3 className="text-green-500 text-md md:text-2xl font-bold ">Sobre Nosaltres</h3>
-        <h2 className="font-bold text-2xl md:text-4xl">La nostra empresa en numeros</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore atque tenetur officiis. Fuga odit, eaque rerum magni enim expedita facilis tenetur voluptatem debitis, explicabo esse consequatur asperiores tempore excepturi voluptates.</p>
-        </div>
-        <div className="w-full h-full flex flex-col md:flex-row justify-between items-center">
-        <div>
-          <div></div>
-          <button>Projectes</button>
-
-        </div>
-        <div>
-          <div></div>
-          <button>Treballadors</button>
-
-        </div>
+    <div className="w-full h-full lg:h-screen bg-slate-600 text-center py-10">
+        <h2 className="text-4xl md:text-6xl font-bold text-white p-10">Els nostres serveis</h2>
+        <div className="w-full max-w-7xl flex flex-col lg:flex-row justify-around lg:justify-around lg:mx-auto ">
+            <div className="w-[90%]  flex flex-col justify-center mx-auto bg-white rounded-xl shadow-md text-2xl md:text-4xl font-bold my-5">
+                <img className="rounded-t-xl w-full h-full" src="https://cdn.pixabay.com/photo/2015/10/09/09/55/insulation-978999_960_720.jpg" alt="" />
+                <h3 className="py-2">Aillament</h3>
+            </div>
+            <div className="w-[90%] flex flex-col justify-center mx-auto bg-white rounded-xl shadow-md text-2xl md:text-4xl font-bold my-5">
+                <img className="rounded-t-xl w-full h-full" src="https://cdn.pixabay.com/photo/2021/04/26/19/01/heat-pump-6209793_960_720.jpg" alt="" />
+                <h3 className="py-2">Bomba de Calor</h3>
+            </div>
+            <div className="w-[90%]  flex flex-col justify-center mx-auto bg-white rounded-xl shadow-md text-2xl md:text-4xl  font-bold my-5">
+                <img className="rounded-t-xl w-full h-full" src="https://cdn.pixabay.com/photo/2012/03/03/23/11/alternative-21581_960_720.jpg" alt="" />
+                <h3 className="py-2">Plaques Solars</h3>
+            </div>
         </div>
 
-      </div>
-  
     </div>
   )
 }
