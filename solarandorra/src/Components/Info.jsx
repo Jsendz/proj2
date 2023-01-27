@@ -10,20 +10,20 @@ export const Info = () => {
         <h3 className="text-2xl text-red-500 md:text-4xl font-bold py-3">Sobre Nosaltres</h3>
         <h2 className="font-bold text-3xl md:text-5xl py-3">La nostra empresa en numeros</h2>
         <p className="py-3 text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore atque tenetur officiis. Fuga odit, eaque rerum magni enim expedita facilis tenetur voluptatem debitis, explicabo esse consequatur asperiores tempore excepturi voluptates.</p>
-        <div className="w-full flex justify-around items-center">
+        <div className="w-full flex justify-around items-center py-6">
           <div className="w-full flex flex-col  items-center">
-            <h2 className="text-xl md:text-1xl font-bold">Instalaciones Nacionales</h2>
-            <div>
-        <CircularProgress value={60} size='100px' color='green.400'>
-  <CircularProgressLabel>40</CircularProgressLabel>
+            <h2 className="text-md md:text-1xl font-bold ">Instalaciones Nacionales</h2>
+            <div className="py-5">
+        <CircularProgress value={30} size='100px' color='green.400'>
+  <CircularProgressLabel>80</CircularProgressLabel>
 </CircularProgress>
 </div>
          </div>
          <div className="w-full flex flex-col items-center">
-          <h2 className="text-xl md:text-1xl font-bold">Instalaciones Internacionales</h2>
-          <div>
-         <CircularProgress value={40} size='100px' color='green.400'>
-  <CircularProgressLabel>40</CircularProgressLabel>
+          <h2 className="text-md md:text-1xl font-bold ">Instalaciones Internacionales</h2>
+          <div className="py-5">
+         <CircularProgress value={70} size='100px' color='green.400'>
+  <CircularProgressLabel>400</CircularProgressLabel>
 </CircularProgress>
 </div>
 
