@@ -5,7 +5,8 @@ import { Navbar } from './components/Navbar';
 import { Info } from './components/Info';
 import { Instalacion } from './components/Instalacion';
 import { Contact } from './Components/Contact';
-import { Serveis } from './Components/Serveis';
+
+import { Chackra } from './Components/Chackra';
 
 
 
@@ -16,7 +17,7 @@ function App() {
       <Hero />
       
       <Instalacion />
-      <Serveis />
+      <Chackra />
       <Info />
       <Contact />
      

@@ -1,12 +1,40 @@
 import React from 'react'
+import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
 
 export const Info = () => {
   return (
     <div className="bg-slate-300 w-full h-full py-10 md:py-0 md:h-screen">
-    <div className="h-full min-h-screen w-full overflow-hidden flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto bg-slate-300 -z-30 " >
+    <div className="h-full min-h-screen w-full overflow-hidden flex flex-col md:flex-row justify-around items-center max-w-7xl mx-auto bg-slate-300 -z-30 " >
+      <div className="w-full h-full flex flex-col items-center p-2 py-5">
+        <div className="w-full h-full flex flex-col justify-center md:pl-8">
+        <h3 className="text-2xl text-red-500 md:text-4xl font-bold py-3">Sobre Nosaltres</h3>
+        <h2 className="font-bold text-3xl md:text-5xl py-3">La nostra empresa en numeros</h2>
+        <p className="py-3 text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore atque tenetur officiis. Fuga odit, eaque rerum magni enim expedita facilis tenetur voluptatem debitis, explicabo esse consequatur asperiores tempore excepturi voluptates.</p>
+        <div className="w-full flex justify-around items-center">
+          <div className="w-full flex flex-col  items-center">
+            <h2 className="text-xl md:text-1xl font-bold">Instalaciones Nacionales</h2>
+            <div>
+        <CircularProgress value={60} size='100px' color='green.400'>
+  <CircularProgressLabel>40</CircularProgressLabel>
+</CircularProgress>
+</div>
+         </div>
+         <div className="w-full flex flex-col items-center">
+          <h2 className="text-xl md:text-1xl font-bold">Instalaciones Internacionales</h2>
+          <div>
+         <CircularProgress value={40} size='100px' color='green.400'>
+  <CircularProgressLabel>40</CircularProgressLabel>
+</CircularProgress>
+</div>
+
+         </div>
+          
+        </div>
+      </div>
+        </div>
       <div className="relative w-full py-2">
         <div className="absolute w-40 h-40 bg-teal-400 rounded-full -left-4 -top-10 -z-10 "></div>
-        <div className="absolute w-28 h-24 md:w-40 md:h-40 bg-slate-200 rounded-lg right-32 md:-right-4 -bottom-12 md:-bottom-10 flex flex-col justify-center z-20">
+        <div className="absolute w-28 h-24 md:w-40 md:h-40 bg-red-300 rounded-lg right-32 md:-right-4 -bottom-12 md:-bottom-10 flex flex-col justify-center z-20">
           <span className="text-2xl md:text-4xl font-bold">+10 Anys</span>
           <h3 className="text-xl md:text-2xl text-center font-bold">Experiencia</h3>
         </div>
@@ -14,15 +42,8 @@ export const Info = () => {
           <img className="rounded-xl shadow-md z-10" src="https://cdn.pixabay.com/photo/2017/11/11/17/05/solar-system-2939551_640.jpg" alt="" />
         </div>
       </div>
-      <div className="w-full h-full flex flex-col items-center p-2">
-        <div className="w-full h-full flex flex-col justify-center md:pl-8">
-        <h3 className="text-2xl text-red-500 md:text-4xl font-bold py-3">Sobre Nosaltres</h3>
-        <h2 className="font-bold text-3xl md:text-5xl py-3">La nostra empresa en numeros</h2>
-        <p className="py-3 text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore atque tenetur officiis. Fuga odit, eaque rerum magni enim expedita facilis tenetur voluptatem debitis, explicabo esse consequatur asperiores tempore excepturi voluptates.</p>
-        </div>
         
 
-      </div>
   
     </div>
     </div>
