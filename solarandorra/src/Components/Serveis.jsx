@@ -3,7 +3,7 @@ import { Card, CardBody, CardFooter } from '@chakra-ui/react'
 
 export const Serveis = () => {
   return (
-    <div className="w-full h-full flex flex-col justify-around lg:h-screen bg-[url('https://cdn.pixabay.com/photo/2021/09/10/17/52/circuit-6613812_960_720.jpg')] bg-cover text-center py-10">
+    <div className="w-full h-full flex flex-col justify-around 2xl:h-screen bg-amber-400 text-center py-10">
     <h2 className="text-4xl md:text-6xl font-bold text-white p-10">Els nostres serveis</h2>
     <div className="w-full max-w-7xl flex flex-col lg:flex-row justify-around lg:justify-around lg:mx-auto ">
         <div className="w-[90%] lg:w-[30%]   flex flex-col justify-center mx-auto bg-white rounded-xl shadow-md text-2xl md:text-4xl font-bold my-5">

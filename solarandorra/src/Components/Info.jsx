@@ -6,11 +6,11 @@ export const Info = () => {
     <div className="bg-slate-300 w-full h-full py-10 md:py-0 md:h-screen">
     <div className="h-full min-h-screen w-full overflow-hidden flex flex-col md:flex-row justify-around items-center max-w-7xl mx-auto bg-slate-300 -z-30 " >
       <div className="w-full h-full flex flex-col items-center p-2 py-5">
-        <div className="w-full h-full flex flex-col justify-center md:pl-8">
-        <h3 className="text-2xl text-red-500 md:text-4xl font-bold py-3">Sobre Nosaltres</h3>
-        <h2 className="font-bold text-3xl md:text-5xl py-3">La nostra empresa en numeros</h2>
-        <p className="py-3 text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore atque tenetur officiis. Fuga odit, eaque rerum magni enim expedita facilis tenetur voluptatem debitis, explicabo esse consequatur asperiores tempore excepturi voluptates.</p>
-        <div className="w-full flex justify-around items-center py-6">
+        <div className="w-full h-full flex flex-col justify-evenly md:pl-8">
+        <h3 className="text-2xl text-red-500 md:text-4xl font-bold ">Sobre Nosaltres</h3>
+        <h2 className="font-bold text-3xl md:text-5xl ">La nostra empresa en numeros</h2>
+        <p className=" text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore atque tenetur officiis. Fuga odit, eaque rerum magni enim expedita facilis tenetur voluptatem debitis, explicabo esse consequatur asperiores tempore excepturi voluptates.</p>
+        <div className="w-full flex justify-around items-center ">
           <div className="w-full flex flex-col  items-center">
             <h2 className="text-md md:text-1xl font-bold ">Instalaciones Nacionales</h2>
             <div className="py-5">
@@ -32,9 +32,9 @@ export const Info = () => {
         </div>
       </div>
         </div>
-      <div className="relative w-full py-2">
+      <div className="relative w-full py-2 pt-24">
         <div className="absolute w-40 h-40 bg-teal-400 rounded-full -left-4 -top-10 -z-10 "></div>
-        <div className="absolute w-28 h-24 md:w-40 md:h-40 bg-red-300 rounded-lg right-32 md:-right-4 -bottom-12 md:-bottom-10 flex flex-col justify-center z-20">
+        <div className="absolute w-28 h-24 md:w-40 md:h-40 bg-red-300 rounded-lg right-32 md:right-24 md: -bottom-12 md:bottom-2 flex flex-col justify-center z-20">
           <span className="text-2xl md:text-4xl font-bold">+10 Anys</span>
           <h3 className="text-xl md:text-2xl text-center font-bold">Experiencia</h3>
         </div>

@@ -4,9 +4,9 @@ import React from 'react'
 
 export const Chackra = () => {
   return (
-    <div className="w-full h-full lg:h-screen bg-[url('https://cdn.pixabay.com/photo/2021/09/10/17/52/circuit-6613812_960_720.jpg')] bg-cover bg-center">
-        <h2 className="p-5 text-center text-3xl lg:text-6xl text-amber-500 font-extrabold">Els nostres Serveis</h2>
-        <p className="p-5 text-center text-2xl lg:text-4xl text-white font-bold">Lo que oferim per asegurar que la teva llar sigui lo mes eficient i autosostenible.</p>
+    <div className="w-full h-full 2xl:h-screen bg-cyan-800 ">
+        <h2 className="p-5 text-center text-3xl lg:text-6xl text-white font-extrabold">Els nostres Serveis</h2>
+        <p className="p-5 text-center text-2xl lg:text-4xl text-amber-300 font-bold">Lo que oferim per asegurar que la teva llar sigui lo mes eficient i autosostenible.</p>
         <div className="w-full max-w-7xl flex flex-col lg:flex-row justify-around items-center mx-auto py-6 lg:pt-20">
         <div className="py-4 lg:py-0">
    <Card maxW='sm'>
