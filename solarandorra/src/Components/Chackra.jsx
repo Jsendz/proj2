@@ -4,12 +4,12 @@ import React from 'react'
 
 export const Chackra = () => {
   return (
-    <div className="w-full h-full 2xl:h-screen bg-blue-200 ">
+    <div className="w-full h-full 2xl:h-screen  ">
         <h2 className="p-5 text-center text-3xl lg:text-6xl text-slate-800 font-extrabold">Els nostres Serveis</h2>
-        <p className="p-5 text-center text-2xl lg:text-4xl text-green-800 font-bold">Lo que oferim per asegurar que la teva llar sigui lo mes eficient i autosostenible.</p>
+        <p className="p-5 text-center text-2xl lg:text-4xl text-amber-600 font-bold">Lo que oferim per asegurar que la teva llar sigui lo mes eficient i autosostenible.</p>
         <div className="w-full max-w-7xl flex flex-col lg:flex-row justify-around items-center mx-auto py-6 lg:pt-20 px-2">
         <div className="py-4 lg:py-0">
-   <Card maxW='sm' backgroundColor='gray.600' >
+   <Card maxW='sm'  boxShadow='2xl' >
   <CardBody>
     <Image
       src='https://cdn.pixabay.com/photo/2015/10/09/09/55/insulation-978999_960_720.jpg'
@@ -17,8 +17,8 @@ export const Chackra = () => {
       borderRadius='lg'
     />
     <Stack mt='6' spacing='3'>
-      <Heading size='md' color='white' >Aislamiento</Heading>
-      <Text color='white'>
+      <Heading size='md'  >Aislamiento</Heading>
+      <Text >
         This sofa is perfect for modern tropical spaces, baroque inspired
         spaces, earthy toned spaces and for people who love a chic design with a
         sprinkle of vintage design.
@@ -37,7 +37,7 @@ export const Chackra = () => {
 </Card >
    </div>
    <div className="py-4 lg:py-0">
-   <Card maxW='sm' backgroundColor='gray.600' >
+   <Card maxW='sm'  boxShadow='2xl' >
   <CardBody>
     <Image 
       src='https://cdn.pixabay.com/photo/2021/04/26/19/01/heat-pump-6209793_960_720.jpg'
@@ -45,8 +45,8 @@ export const Chackra = () => {
       borderRadius='lg'
     />
     <Stack mt='6' spacing='3'>
-      <Heading size='md' color='white'>Aerotermia</Heading>
-      <Text color='white'>
+      <Heading size='md' >Aerotermia</Heading>
+      <Text >
         This sofa is perfect for modern tropical spaces, baroque inspired
         spaces, earthy toned spaces and for people who love a chic design with a
         sprinkle of vintage design.
@@ -67,7 +67,7 @@ export const Chackra = () => {
 
    </div>
    <div className="py-4 lg:py-0">
-   <Card maxW='sm' backgroundColor='gray.600'>
+   <Card maxW='sm'  boxShadow='2xl'>
   <CardBody>
     <Image
       src='https://cdn.pixabay.com/photo/2012/03/03/23/11/alternative-21581_960_720.jpg'
@@ -75,8 +75,8 @@ export const Chackra = () => {
       borderRadius='lg'
     />
     <Stack mt='6' spacing='3'>
-      <Heading size='md' color='white'>Paneles Solares</Heading>
-      <Text color='white'>
+      <Heading size='md' >Paneles Solares</Heading>
+      <Text >
         This sofa is perfect for modern tropical spaces, baroque inspired
         spaces, earthy toned spaces and for people who love a chic design with a
         sprinkle of vintage design.
